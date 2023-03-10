@@ -19,5 +19,5 @@ void    tryPushBackNonDuplicate( T1 container ,T2 element ) {
 
     it = std::find( container.begin(), container.end(), element );
     if ( it == container.end() )
-        container.push_back( it );
+        container.push_back( element );
 }
